@@ -1,0 +1,139 @@
+/* Global and HTML styling */
+html {
+  border-left: 5px solid lightgray;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Header, Main, Footer padding fix */
+header, main, footer {
+  padding: 1rem 2rem;
+}
+
+/* Headings */
+h1 {
+  font-size: 3.5rem; /* or bigger if needed */
+  font-weight: 300; /* thin font */
+  color: tomato; /* not tomato */
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: gray;
+  letter-spacing: 0.15rem; /* adds spacing between letters */
+  margin-top: 0;
+}
+
+.post-title {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+/* Blog Post Styling */
+.blog-post {
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.post-date {
+  font-size: 1.1rem;
+  color: #b0b0b0; /* softer light gray */
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase; /* optional — if needed to match */
+}
+
+.blog-post img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.blog-post p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+/* .post-content {
+  .post-content::first-letter {
+    color: lightgray;
+    font-size: 3.5rem;
+    float: left;
+    line-height: 1;
+    padding-right: 10px;
+    font-family: serif;
+  }
+} */
+.post-content::first-letter {
+  color: lightgray;
+  font-size: 3.5rem;
+  float: left;
+  line-height: 1;
+  padding-right: 10px;
+  font-family: serif;
+}
+
+/* Continues Link Styling */
+.continues-link {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  color: tomato;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+/* Navigation Styling */
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 2rem; /* controls spacing between items */
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  
+}
+
+
+
+.main-nav {
+  justify-content: space-between;
+}
+
+.footer-nav {
+  justify-content: center;
+}
+
+.main-nav a {
+  color: #7c7a7a;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.footer-nav a {
+  color: tomato;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+/* Footer Copyright */
+footer p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+footer .copyright {
+  color: lightgray;
+}
