@@ -65,16 +65,7 @@ h2 {
   margin-top: 1rem;
 }
 
-/* .post-content {
-  .post-content::first-letter {
-    color: lightgray;
-    font-size: 3.5rem;
-    float: left;
-    line-height: 1;
-    padding-right: 10px;
-    font-family: serif;
-  }
-} */
+
 .post-content::first-letter {
   color: lightgray;
   font-size: 3.5rem;
